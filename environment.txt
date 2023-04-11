@@ -1,0 +1,14 @@
+USE THESE COMMANDS TO INSTALL THE REQUIRED PACKAGES
+INSTALLATION WITH AN 'ENVIRONMENT.YML' FILE TAKES LONGER AND IS ERROR-PRONE
+
+conda create -n scaleequi python=3.8
+conda activate scaleequi
+conda install pytorch==1.9.0 cudatoolkit=10.2 -c pytorch
+conda install -c conda-forge pytorch-lightning=1.4.5
+conda install -c conda-forge scipy=1.7.1
+conda install -c conda-forge seaborn=0.11.2
+pip install dipy==1.4.1
+pip install monai==0.7.0
+conda install -c conda-forge tensorboard=2.6.0
+conda install -c conda-forge torchmetrics=0.5.1
+conda install -c conda-forge setuptools=52.0.0
